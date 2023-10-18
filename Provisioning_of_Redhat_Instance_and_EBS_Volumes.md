@@ -1,4 +1,4 @@
-## Virtual Private Cloud (VPC), Private and Public Subnets Provisioning
+## AWS Red Hat EC2 Deployment Script with EBS Volume Configuration Overview
 This script deploys AWS instances powered by Red Hat Enterprise Linux 9, along with a security group that grants access to ports 22 (SSH), 2049 (TCP), and 2049 (UDP). It also attaches three Elastic Block Storage Volumes, each with a size of 50GiB, to the EC2 instance. Every resource is named logically, and it offers the public and private IP addresses of the created instances for future reference. Prior to running this script, please make sure that you have set up the AWS CLI with the necessary credentials.
 ```
 # Define the AWS Provider Configuration
